@@ -67,32 +67,19 @@
 
 #### DOWNLOAD/INSTALL
 
-**2º - Set execution permissions**<br />
+**1º - Set execution permissions**<br />
 `cd venom`<br />
 `sudo find ./ -name "*.sh" -exec chmod +x {} \;`<br />
 `sudo find ./ -name "*.py" -exec chmod +x {} \;`<br />
 
-**3º - Install all dependencies**<br />
+**2º - Install all dependencies**<br />
 `cd aux && sudo ./setup.sh`
 
-**4º - Run main tool**<br />
+**3º - Run main tool**<br />
 `sudo ./venom.sh`
 
 **Update venom instalation** (compare local version againts github oficial version)<br />
 `sudo ./venom.sh -u`
-
-
-#### Framework Main Menu
-![banner](https://user-images.githubusercontent.com/23490060/71019038-8cd1fa80-20f1-11ea-9cb3-795020d24481.png)
-![venom shellcode v1.0.17](http://i.cubeupload.com/cVldOV.png)
-
-
-<br />
-
-Detailed info about release 1.0.17: https://github.com/r00t-3xp10it/venom/releases<br />
-Suspicious-Shell-Activity© (SSA) RedTeam develop @2019
-
-_EOF
 
 
 
