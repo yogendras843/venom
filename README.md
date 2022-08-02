@@ -67,9 +67,6 @@
 
 #### DOWNLOAD/INSTALL
 
-**1º - Download framework from github**<br />
-`git clone https://github.com/r00t-3xp10it/venom.git`
-
 **2º - Set execution permissions**<br />
 `cd venom`<br />
 `sudo find ./ -name "*.sh" -exec chmod +x {} \;`<br />
